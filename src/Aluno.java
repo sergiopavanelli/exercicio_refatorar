@@ -2,10 +2,11 @@ public class Aluno {
 
     private String nomeAluno;
     private String ra_aluno;
-    private int total_notas_aluno;
     private int nota1Aluno;
     private int nota2Aluno;
     private int nota3Aluno;
+
+    private int total_notas_aluno = (nota1Aluno + nota2Aluno + nota3Aluno);
 
 
     public Aluno (String nomeAluno, String ra_aluno, int nota1Aluno, int nota2Aluno, int nota3Aluno, int total_notas_aluno) {
@@ -19,9 +20,14 @@ public class Aluno {
 
     }
 
-    public String apresentacao() {
+    public String apresentar() {
 
-        return "Nome: " + this.nomeAluno + ", RA: " + this.ra_aluno + ", Nota: " + this.nota1Aluno + ", Nota: " + this.nota2Aluno + ", Nota: " + this.nota3Aluno + ", Total de notas: " + this.total_notas_aluno;
+        return "-- Nome: " + this.nomeAluno + "\n" +
+        "- RA: " + this.ra_aluno + "\n" +
+        "- Nota 1: " + this.nota1Aluno + "\n" +
+        "- Nota 2: " + this.nota2Aluno + "\n" +
+        "- Nota 3: " + this.nota3Aluno + "\n" +
+        "- Total de notas: " + this.total_notas_aluno;       
 
         
     }
