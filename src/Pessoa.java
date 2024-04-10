@@ -9,15 +9,11 @@ public class Pessoa {
         
     }
     
-
-
     public String falar() {
-        return "Oi, eu sou " + nome + " Meu RA é " + ra;
+        return "Oi, eu sou " + nome + ", Meu RA é " + ra;
     }
 
-    public String getNome() {
-        return nome;
-    }
+ 
 }
 
 
