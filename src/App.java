@@ -2,6 +2,8 @@ public class App {
     public static void main(String[] args) throws Exception {
  
      
+        // teste git dell
+
         Aluno aluno1 = new Aluno("João","123456",25,30,35); 
         Aluno aluno2 = new Aluno("Maria","654321",20,30,40);   
         
