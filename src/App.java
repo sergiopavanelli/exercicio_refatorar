@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
- 
+
+        // Criando objetos
+
      
         Aluno aluno1 = new Aluno("João","123456",25,30,35); 
         Aluno aluno2 = new Aluno("Maria","654321",20,30,40);   
@@ -11,7 +13,7 @@ public class App {
         System.out.println(pessoa1.falar());
         System.out.println(pessoa2.falar());
 
-
+  
         System.out.println(aluno1.apresentar());
         System.out.println(aluno2.apresentar());
 
